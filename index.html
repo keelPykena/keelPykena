@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Desativado</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"  class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://i2.wp.com/files.agro20.com.br/uploads/2020/03/comidabrasileira3.jpg?fit=1024%2C585&ssl=1" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUzP5D5Bv_CrdZwKfUYEyCw3dY7FcayTgUg&usqp=CAU" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUzP5D5Bv_CrdZwKfUYEyCw3dY7FcayTgUg&usqp=CAU" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Restaurante Brasileirissímo</h1>
+            <p class="lead">Comidas Tipicas Do Brasil</p>
+        </div>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYYGRgZHBgaGRoaGhwaHBgYGBocGRoaGBocIS4lHB4rHxgaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHzQsJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ2NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALQBGAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EAEQQAAEDAQUFBgQDBgMHBQAAAAEAAhEDBBIhMVEFQWFxkSJSgaGx8AYywdETQuEUYnKS0vEHFRYjQ1OCssLiM0SDoqP/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBAAX/xAAqEQADAAICAgICAQMFAQAAAAAAAQIDERIhMVEEQRMiQjKRoVJhcbHwM//aAAwDAQACEQMRAD8A9jSWKNvDuHqFIbdb3HeSmWaPYf4b9GykskbcZ3XeSkNt09HdEX549nfiv0aiSzBtqn+90TjbNLU9FqzR7M/HXo0klnja9LvHoVIbVpd7yKL8se0d+OvTDkkENqUu/wCRTjaVLvjzXflj2jOFemGJIX9vp94J/wBup95vVb+SfaO416CUlT+0s7zeqkKzdR1Xc59ozT9FiSh+I3UdU/4g1C7nPs7TJJKN8ap7w1W8l7M0OkmvjUJr41HVdyXs7RJJR/EGo6pXxqF3JeztGftV8Fo5oAVEbtkdlpG4x1H6LIvKLL/WyvH/AEovq1/FPsczW5B32+qz6z1q/DlLBzzv7I9T9EcC7N1MnST2JK6lQNEkws6rtTGGhQ2/UgMGpd5R91kUqhCTVd6GTO1tml+1P16mfVTp7RIID8jv0QTamSqtjhuRpbBro6NyrJT0j2W/wj0CZyA0g5JO5JcccxdTgKxIKE9AgApBqnCQauOIXVINVgCldXHFV1K6r7qQYuM2U3UrqIuDin/D4rDtg4YpBiG2pbxSAGbjiOAG9R2VtRtQhrsHH5YntcOaH8i5cfsPhXHl9GiwK5qkKB0KVyM01dCX2MHK9j1TgnmFqYLRK12ttNpc7wG8nQLGpfEBvC8BG+Nw1CzNrW78R+HytwHXPxWYakOg+CRWd8tIpn46UbryeglwIBBkHEEbwqHBY/w9b5H4bjlN3lvH16rZcqFW1smc8XorIUSFYUgJXHDhkNxzPoFAUAd8KdV+KprW1lOLxGOQieEwtTS8m6euiivREJWZxDYBOBVlV0iUNQf2iNU7W5E+KCjVdqepUDWdqepUioOCRsbpA9qqEjEkxqZVNN6IqMkFU06RTJ2ZWi5r1TVeiGUSVS+mQU/tS2TvTpJkTan953VR/a3953VJzFEsUm2V6Xon+1v7zklVdSW8mdxXoNHvBSCmHqxjHHJp6R5oOIXIqlTBV7aJ3wOZH0UxZjq3qfsu4MzkgWU4KvdRdpPLFQLo4eCzibyIhwVzLO4iYgccFVeCf/MiTDhiN4w8kUqf5A1y/iggUBvd0H1KmA0bieZ+ypbUa7J3gcPNZ22rWWMjIvwB4byCOHqjp45nkBM3VKTndt2j8Wq5wi63stjKBOJ5mT4rLFRzYjMHAgncQigwHAIC04EY4T4ryVbq9ns8EoUr6PQPh3bArMh3zga/MO8PqPutf8QheWWKu5hDgYgzyO4rtNl291Rl4EEjBzc4PDgrpzNrs8y8STZvEg5geGCxPiC1hoDATLvm4N08forq1vLAS4bsNCVzVaoXuLnGSTiUGTMuOkMwYd1t+Ch6Ge2T5IipMwqq5hs+5Uk12XuetErJVLHBwO+QeIXb06t5rXDeAeq4OzVQui2JbR8hOB+UncdFbiva0QZ8bl7NyUryUKt+Sb2IWiurWDQXHIYrk7Tay55ccScvsEftu1Em4JgZ8SsgKfLe3ouxY9TyZ0WyrVep3ScWmPDd9k/4kPHNY+zqlx+eDuz45jz9VoPfirMNcoPPzTqzbBUSU45qD3gBDpm7RXUepUkOXK2mU6QGG1HAnDAYeglB2gQr6eYSt1OD4J8k1AZKrJVlPJM5qjqdU0VzW5TKnFJOQkh0wuQYbYRkAOQA80PW2iBi546rkBQrPPaeY1mR5SjKOzR+Yl3iQOipW/pA1MT5rf8AwbTNvUZgvAPGVo09uUQP/UZ4Y+i5wWNncb0B9VeKbAIDAOQjzCxy35O5QvCZ0FPaVN2Tx44eqIZbGnC813CQfJcVVq1w8MFKGO/OHDzmOspW2qymZdVxGJAaHOHSEtxr7GJzXlHcljXbo5fYoO1WBxxaQ46ZE9cPNYGzNpPIDqVOtUa4AguwbjvwBu9VuU7c8NBe6kw90y8j+V0IOLf0ZWp8MDdeaYcCDocFi7YtV54E/LI8XR78Ft7Q2w6IbUB/+MAZbpJhcvacTJxJx85kqX5T4/r7K/iLk+T+iBre/shLS/f4+M7/AHopuIn1jd9sEPjp74aqWZSLaJUam7CP0WlsXaBpvDmknEyNxGUH1WQwQTvy9hEUzHhHDjvT5fF7RLkhNHV7S2gagEnAYgARisxj8cIjzQJtXZ5eSop2ok54LMidNs7FUylJqzig7a/8ug9++KvY/NBVjmeqQloqntkWAoqzVjJHHD34KhqsfgQ73j+ibjrTE51taOx2XbL7f3hnju3FWbQtAYwuO4YcTuC53ZVquVRjgcDpBznlgfBNtfaP4joHyjL7lVVep2RY8bqtALqpc4k7/qldVVPTE+vv7K27JUdPbPQa0h3mPLy/VaFOtejXCUA/LdvT2arBHDd907DlcMiz4uSOqDlGq7AoezWlrxI6Ky0ZDmrlSa2iLi9kA5EUyhWlXMKKWbSCmOghPaqkqkFM8qmWTWiumc073Kq/EpF6Ra/ZjYf6oRenVLikg0FyK62ygcaVS6e6/wDqb9lA0a7YBpF/FhYR/wBU+SmHkJ3VylTnpdFdYExNstRwm65n8V0epQlpp1B/7im3Xs33dG4eaotdoOqAe9UK9onccX0a9S107sOBe7e4f7MHwBJ80I20saZZTY063bzv5nyUBeSlFvYGtGhUt73fM9x8VUKiHaVdQbePAYnkhqlKbZqjk9IuLoHP0QlUzkiKj5OaGe7HxjnqeC8O6d26Z7uKFEJIHDDM+EQpXVeY35Kh9QEkDd5StTbCaKX0wToEoA95qwnHX2FS44pssTSJlw67vohWuIN3Qxz0Uqz1bZmCb5GMAN5970TVSU7Yjg3WkHF91on5oxQwkbyeca5BXOEnHGMeRUS3XJTOtl0rih6eP08FbUYY6dFWwK1zvLNbL7EZFsgw4pVngb1B7sRCCrVZJ5p+nTEy1K/3C6Fbd7gIthw4lZFN60qL4GKXc6DmuRa5+JiMh/dVsdCkNRoq3TvQpnUg2w2q48GTG8eGQ9VuWirea3nPkuUJk9PQLTs1qNyCJunHWDl9VVhv+JJknvZpsciGFAWe0NdkUaxyrkRSLwVB7kryqqPVEktkN6RCHZagSYy1VwI3pVP9mHMvQikpHkkg2M4g8qLkEL4yMjjn1Cc2g72n19FCqR6jhlNpGKGIVtW0N7w6oZ1pH5Q53JpPnkqYtaJbh7JEKtz10ewfhp1ZoqVS5jD8rRF9w1JODR1PJdXZdg2an8lJhPef2z4F0x4KmZb7IryzL0ebWahUf8jHv/haXDqBAWta7A+ixoe26XznBJiJyOGYXoLge9A0AXFfFzv9s0FxIDJ1guJnf+6Er5MpYmH8W3WZI5q+cTpnmc8le0zpmPLmgicZ1kxy/RWseDj79zC8dz0e9ssqY8vf2Q1TsxzV17Tnv5oeo6QcIg+i2UDT9F4I9+aCtMBEU3e4QludAJjJNhdimyDGXnDPjyWjRaR4Ze9ENZacCd5E8uCNu5btVmSvobE67YmgzimqdfqlPvRVOqYxGEZ8d4Skm2MbSJCpiBrxUnvx4qm8psgnH0RroVSJySMkNaaeE6Z8kYAoVRgdMQnxRJS7AKTlo0hIWWDBhaVmfhCzIvQWNljJGatqAKTWTwThmaRvsYwR26Ebs89ojUeYx9EK8QTOcfqrrM8hzTxHT+yfjf7Inyro0HUZzana0jIuHiUYWnRJeg50SK9+AW+7UqD6c/NJ5klFwlC7bM0vRWxnJWgp0lhw95JMkuOAVG6oOtGg6ql73nf0Uiwtl7zpF7nAZmERsigK1UMBkfM7g0ffJYlrvjJrnYZgTHhqs+htJ7KjXtNx4yc37cjBG9EpmX2SZ/ltJpeT2xoAAAEAYAJLibJ8XVLt8ta8NE1KYN17R+Z9I5ObvLTi2DjGLdTZ/wAWUa9Q06bXE3LzCYbfcGlzmQflIjPLA6CfQnJD1p+TyzfevN9vbQZUrvF8OLJYQGlobccQRJ+bEjHfKNb8fj8ZgdTuU5h+N5wB/MI7pzGMg4QR2uErtIe5t68bxBdM3sfmnfJxlI+Q5qdIdgyvHapI1XuG/Pcq2WluI7sSTlxzWc+1kVDjhOU4Rl6IR1UmY/Nn6qFYd+T07+f/AKV9nQl6ovzy3ITZeAdnjHLCcj4oh5GQ10QOFNaKseR3KprWx78Ye9VFjLzhpmfBVvKusLhjrP2WtaWwp7oNYMcVZVzAGg9TKgz+6m8Tjr9FM/JSUv0TYcVKo0+CZoRLwY2h2bj1UhCgCk7KdPouBZbfGsDf73Kh9RPTE5lTeyU2SbIkjPtLLrhx9+ivs9aCqNoSIO6fVUU6idx3IlVpnQ0akwVKo7eOceX3WZQriM0S18jzSHOmNdb7HmSp8lHfPuVIQSBMThOk4T9fBMhNsRkpHTUqocJaQeRmOisa2UBa302EVaNM0yDg9sMa/VpYMHg9fRdnZheAIESAeq9pP6Z429eDlq9KBeGQz4If8UarprZZmtc5kdlw8iuTtNnLHlp3eY3FT3K3tFeO3rTLhWCk14KCDVNryEAxMLlOhPxUl3ZvQOKalc5oi7w8kxeOKVsfohZ6F9zWd43fA4HyRm3/AIVtFUinQp2enRBBBEBziBF6o65enE4CRzQ9ltIa9ru6Z14LsrJtNrhjv3jEfojjXhkueG9aPJraxlJ5YKzHOaS03L/Zc0wQS5gGY3E5Kmy2h1Oo2ow9pjg4EZSNxjcciOJXS/EWwBXtj3xcYbsuAF55AAcQJzOvih/iey2ajTYyiGteZyYHvcBA7T3G8zHQY8AgeLTbl60RuWvIL8Tvs1RptItDg95INIsaXNcATBIc3sTAvw49oZ4rmLC8Pc298pMO4YE49CrrQy8zGm2CYvw+Sc4Hauz4SqKNkLTMAYZTrr9kTafb8mz5IWiykEhpDgMneMCRqosbEDeUVRa4uJJF0EgNAzjCXHMnd4Iyjsh75c03Ru3XumIHH1Qt/Qcd10hn1iRhG7oqX1o4KRs7mOILmG7EgHGSSI54eCetScBiInI5g8iDB6pKlI9B/La8r/IO+rxzROy3kzjhI9I+gQrdlVX9oFt08gPVF2GwvpSXEOBjIzB00jFMvH+jaH4syqlo1WFWvfhCEa6clbOq85z2X8hPdkkCqnyAmZWxjfoi49dAui52OSg10Zp2vUXmFiQLZOY8VCpVIGJVL68Y4eP2KArWwap+OGxN7ZPaVfsjiR5IRlQKq2333brcBnOGPBRp2R+E+WKrUyp7YCwZafSf/RoU66KZauKAbSu5q5rmgYGT71QOUyifiVr9mGsrk4AT74q2k9weCQCR+UyR4j6INlQ8AN8YSt3YtEPN6EzFC3v0QfMx8NJPyblisTaj2Pqvc8ABxkQBpTYwYNA3+XHtLPUaRLcly1m0XRWVl1oHXmqk2zzalSPtBktnePQ+wuc2zRvNa/e3su5HJdOXtMgkaHHVAPsgc1wnBzYwynULWtmKtHHtAn9FfKFqy1xacwSD4KxlSR/ZTUmWw0TICSi53vBJZsPSIF/ufsoPePYKpY0nKffJWCg7fAWdLyZuq8Fb3YYekIWltB9MyyRqDiD4I51ADvHqAqH0RuAQ1coZOKn5NfZ232PhtRt13ES0+O7xWl/l9Ko4FzWluEkgFwHArjnqk7UrUSHMMt3tcJbn1HghnLt6NyfHXHZ1O0tgMbLKYlsEtwgjDE4QD4LkLdsGoMARE5Yg4Lo9l/GtN3ZqTTJwM9pp8fuFvgUqjZBEHIiHNPL9CqNy/JHWFo8+s1MsJvsnACQAR0jzRAqiZjDcuurbJ0EjqPuPFZtTZYzu+IWykjNaWkchtFnbLoi9j6D6KFhDXPi/dOpynnuXQW3Y98ZnDTzWbaNjlreyCSNYJI0gBLrH+zYprvZp0NnMG9uOcHfyyCevs5kfMf5kJs1+Fx7SHNykntDUTnn6I80Acj4FN48pHRanwjCqUyw44jcdVIVPot92z7zYcB4fosi0bHqNMsN4d12HQhQ3hez04zprsHdU6JnOEyhK7KrT2qb/AAgjiqH2h/cesWCgnmkPfVVD7VHvJAVLU/uO98VGzvLib7XNGEb5RrA0ttBRkmqU7/uWVaxcdAp2azjcxzjwBJVb625rY3yc4yw3KItbhIBInOD7lGk/B7UTiiP11v2HGyPONx+snhjvV/7I+J7AJ3Zxz3DNZJtLtT1Kj+0PJgSSdwknpvWqROTJpdtBT7x3+n0TfihvEq6y7HrvzFwfvYH+UY9YW7YPhumzF81Dxwb0H1JTFHs87N8xLqezIstmfVIDQY3nd1XY7OstxoEqyhSAwaMBuAyWjZLE5+8NAzJx/RNS60jyctunyonYHAPBJgCfQraZWJ+VuGpwHhqg6bKdP952px6bggNp/EDGDtPAPdGLj4Jkrolp8n0a1W4MXkE6bun3WXtDbjGYDPQZ+Oi5C3fEr34M7I1/MfsgWVSc8VzpLwaob8mpXrl7i4jEmUzHQUOzEKxvv3CU+x09eAuUlCmZGaSXofs0Jj+yYlIv4KJhTlBB4Qz26IkkcFS5C0GgR7ChnM9wj3BUPahaDTMS17Pa7EYHy6LOpVa1ndLHuZ/CeyeYyPiumewaKmpSBGo96opyufPZlY5obZ/x1VZAqMDx3mm67pkfJdNYfi+y1cHPDHHc/sH+bI9Vw1p2W0/Lhw3LKtNhc3MYa5hUzc14ZNeFryj2cU2PxaQZy/uM1W7Z4PsfZeL2e1VKRmnUez+FxAPMDA+K0qXxbbG/729/Exv0ATUT1iPT3bLO4+n3VZ2S72P7rz6l8eWoZtpu/wCVw/7kZR/xHqj5qLTyefqEXYHBo7T9lqDKOn6BVPp1NG9P/Jc7S/xIb+ak8ciD6gIyl/iLQObHjwafR6zibto0XMf3Gnx/uqnU3f8AC8z/AEqDfjuzHO9/I79VP/WllO8/yO+yzijuTK30D/wfX+hUvsRP+5Hn/Siv9Y2XX/6P/pS/1jZdf/zd9l3FHc2Zr9hh+dMdD6wFQfhRhP528v1BWwfjKy+2H6hRPxpZtzSf+RdwQ2fk2lpP/IHR+F6QzaXfxXj5ZLUs2y2sENYAOADQgz8a0dzHfyt+6gfjenupu6N+61JAVnuvLNqnYfYEopthaM/PE9AuWqfHQjs0if4nQPKVkWz4rtD8GkMH7ox6n7I1x+xNVTPQatamwS4gAd4gDoPqsS3/ABdSbgyXkZAYNHvhK4GtaHvMvc5x1JJ9VGV3JLwjODflm3bviStUwDrjdG5+LvtCybxJk5n3jqoNaVe1iB035DmEvA7JR1DDNDMai7PTJyBWBqd+AljkQwE7unRKlZdTPoffh8zdVeXQPtkd2sj5j/MNCt0NnDvyUVnOY2WiZEzoNY378tEkXenQ79M8cvAY/wBISXcSqVErWgyVEuKsawe5UXMUemByRW53vFVkq4s5eai5i7izeSKCVW5qtLDwTOpoeISpA7mKDmIksKgaZQ8WEqQG5nBVupo11PRVupH3iscsJWjHtGzGO3QdR9lmV9kuGI7Q6FdS6mq3MKObuQamKOLfZ4MEEc8FA0l2j6E5tB5oWpsph3RyKdOb2hNY/Ryf4CY0F052ONeoVR2RxHmjWZC3jfo50UOCcUuC3zsg6jqVE7Jdw6ovyr2A8b9GKKakGcFr/wCVu08042Y7TzC7mvZnB+jKbKcytP8Ay13dPVM7Z7u76LuSM4P0ZwCkGrQbYHd0p/2B3dK3kjOD9GeArGsRwsTu6rBY36eYXckdxfoBbSVrWItlkfp6Kl9RrTEyeGMFZsZjwVkepQzWK1rRqmD9MREziI5zkoumJWl0fBlf1MJsVppg9sHgTljqBlv1Wyx4IhpEHK7Ebx2SBrOWGLdy5v8ADmMM9MceHvcFOi4sMz4A5kZB0bpj3C1PRQ/jwl+p0kHCSTOQGA4dZgDR7DhAV1xu8Sd3GCZMjIYkxnicOzjh0dsPbgQ0iPynzgk6nDDA8p0LNtBhMNfmfzYFxz1jhzAO9y3aJ6w1K8BjmmTAgb4AJGJiQZBxnmWkbwkmeRdHbkaCYywgeB8xuCSITx/9o0EkklGKIpnJJLjkQKYpJLjSDlBySS40iUxYE6SwIqcpFgTJLjURcEgkkuOItYExYE6S4wYMCgQkkuOGLAlcCSS40iQlCSS4EiUwCdJajhJykkuNEud2zRDKouz2pJx36pJI58lXxP8A6A9nefT6Lc2VQa6marsSN35Thv3+aZJNnyWfI8f2B7RaCRgGt3dkRhzz80M1JJczMXgm5QD8+SSS4JmjZKrgYBIGm7okkktJb8n/2Q==" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Coxinha de Fango</h5>
+            <p class="card-text">massa de coxinha e frango desfiado.</p>
+            <p class="card-text"><small class="text-muted">R$2,00</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://brasil.cambly.com/wp-content/uploads/2019/03/shutterstock_1151228951.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">tapioca com nutella e morango</h5>
+            <p class="card-text">tapioca,nutella,morango.</p>
+            <p class="card-text"><small class="text-muted">R$10,00</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://www.revistabula.com/wp/wp-content/uploads/2018/06/Virado-a-Paulista-610x350.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Almoço do dia</h5>
+            <p class="card-text">ovo,arroz,feijão,batata frita,carne,farofa,salada de couve.</p>
+            <p class="card-text"><small class="text-muted">R$10,00</small></p>
+          </div>
+        </div>
+      </div>
+
+
+<div class="row">
+
+    <div class="col-1">    </div>
+    <div class="col-5">
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select de exemplo</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Exemplo de select múltiplo</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+    </div>
+    <div class="col-1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.391205678641!2d-46.413359299999996!3d-23.4824147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63ba5ce537a3%3A0xcfa7354d224ba85e!2sR.%20Borboleta%20Amarela%20-%20Jardim%20Sao%20Martinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008081-570!5e0!3m2!1spt-PT!2sbr!4v1655767222379!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-5"></div>
+</div>
+
+     
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
